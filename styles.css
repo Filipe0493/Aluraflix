@@ -3,6 +3,7 @@ body {
     background: black;
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
 
 header {
@@ -34,9 +35,6 @@ p {
     font-size: 20px;
 }
 
-img {
-    height: 200px;
-}
 
 .videos {
     display: flex;
@@ -47,4 +45,19 @@ img {
 .categoria-videos {
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 35px;
+}
+
+.videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(252, 215, 3);
+}
+
+.categoria-videos h2 {
+    color: dodgerblue;
 }
